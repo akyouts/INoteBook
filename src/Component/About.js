@@ -7,7 +7,7 @@ import NoteContext from '../Context/noteContext'
 
 const About = () => {
 const a = useContext(NoteContext)
-a.changeState(); 
+
   return (
     
       

@@ -11,7 +11,7 @@ const Notes = () => {
       <h2>Your Notes</h2>
     <div className='row my-3'>
         {
-            state.map((ele,i) =><NoteItem key={i} note={ele} />)
+            state.map((ele,i) =><NoteItem key={i} uni={i} note={ele} />)
         }
         
     </div>
